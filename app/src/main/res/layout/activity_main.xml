@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best practice for banner integration within levelplay"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="47dp" />
+    <Button
+        android:id="@+id/banner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Banner  320 X 50"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="112dp" />
+    <Button
+        android:id="@+id/large"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Large Banner 320×90  "
+        android:layout_below="@+id/banner"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="185dp" />
+    <Button
+        android:id="@+id/mrec"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="MREC: 300×250 "
+        android:layout_below="@+id/large"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="260dp" />
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="LeaderBoard 728X90"
+        android:layout_below="@+id/mrec"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="343dp" />
+    <Button
+        android:id="@+id/admoblarge"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="AdMob Large 320X100"
+        android:layout_below="@+id/leaderboard"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+
+
+</RelativeLayout>
